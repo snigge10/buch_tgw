@@ -1,0 +1,109 @@
+project:
+  title: "The German Way"
+  language: "de"
+  tone: "anwendungsorientiert, motivierend, gelegentlich augenzwinkernd"
+  audience: "Leitende Angestellte, Führungskräfte, Geschäftsführer, Vorstände (branchenübergreifend)"
+  writing_mode: "iterativ"
+  review_loops_per_chapter: 3
+  final_cut: "human"
+
+citation:
+  style: "footnotes"
+  required_for:
+    - "factual_claim"
+    - "statistics_numbers"
+    - "historical_assertion"
+    - "named_study_or_report"
+  footnote_format:
+    # Minimaler Stil, der in Markdown robust ist:
+    # Text ...[^fn-1]
+    # [^fn-1]: Quelle, Titel, Datum, URL, Abrufdatum.
+    marker_prefix: "fn"
+    include_accessed_date: true
+
+research_policy:
+  allow_web: true
+  preferred_sources:
+    - "peer_reviewed"
+    - "official_org"
+    - "standards_bodies"
+    - "government"
+  hard_block_domains:
+    - "stern.de"
+    - "focus.de"
+    - "bild.de"
+  soft_block_categories:
+    - "tabloid"
+    - "sensationalist"
+  require_source_quality_note: true
+  require_factual_crosscheck: true
+
+models:
+  # Richtwerte. Tool/Runnner kann daraus Vendor/Model auswählen.
+  orchestrator:
+    vendor: "openai"
+    model_hint: "gpt-5"
+    temperature: 0.2
+  interviewer:
+    vendor: "anthropic"
+    model_hint: "claude"
+    temperature: 0.3
+  research:
+    vendor: "anthropic"
+    model_hint: "claude"
+    temperature: 0.2
+  outline:
+    vendor: "openai"
+    model_hint: "gpt-5"
+    temperature: 0.4
+  writing:
+    vendor: "openai"
+    model_hint: "gpt-5"
+    temperature: 0.6
+  editor:
+    vendor: "anthropic"
+    model_hint: "claude"
+    temperature: 0.3
+  factcheck:
+    vendor: "openai"
+    model_hint: "gpt-5"
+    temperature: 0.2
+  continuity:
+    vendor: "anthropic"
+    model_hint: "claude"
+    temperature: 0.2
+  gitops:
+    vendor: "openai"
+    model_hint: "gpt-5"
+    temperature: 0.1
+
+git:
+  strategy: "chapter-branches"
+  main_branch: "main"
+  branch_naming:
+    chapter: "chapter/{section_id}-{chapter_id}-{slug}"
+    research: "research/{section_id}-{chapter_id}-{slug}"
+    edit: "edit/{section_id}-{chapter_id}-{slug}"
+  commit_conventions:
+    - "docs: chapter <id> draft"
+    - "docs: chapter <id> edit pass <n>"
+    - "docs: chapter <id> final"
+    - "chore: research evidence <id>"
+  merge_policy:
+    require_human_approval: true
+    squash_merge: true
+    no_direct_commits_to_main: true
+
+quality_gates:
+  - id: "QG-01"
+    name: "No-source-no-claim"
+    rule: "Jede faktische Behauptung hat mindestens eine zulässige Quelle in einer Fußnote."
+  - id: "QG-02"
+    name: "Domain hard-block"
+    rule: "Keine Quellen von hard_block_domains; bei Verstoß: Blocker."
+  - id: "QG-03"
+    name: "Evidence-first writing"
+    rule: "Draft darf nur Claims enthalten, die in Evidence Tables abgedeckt sind oder als 'Opinion/Experience' markiert."
+  - id: "QG-04"
+    name: "Continuity"
+    rule: "Begriffe, Zahlenstände, Schreibweisen konsistent mit book/03_canon.yml."

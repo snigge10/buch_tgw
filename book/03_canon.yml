@@ -1,0 +1,22 @@
+# Canon: Begriffe, Schreibweisen, feste Aussagen
+terms:
+  German Way:
+    preferred: "The German Way"
+    notes: "Buchtitel kursiv nur in Layout-Phase; in Markdown normal."
+  Künstliche Intelligenz:
+    preferred: "KI"
+    notes: "Beim ersten Auftreten pro Kapitel einmal ausschreiben: 'Künstliche Intelligenz (KI)'."
+
+style:
+  numbers:
+    use_decimal_comma: true
+    thousand_separator: "."
+  english_terms:
+    allowed: true
+    rule: "Beim ersten Auftreten kurz erklären, wenn nicht allgemein bekannt."
+
+facts:
+  # Beispiele für fixierte Zahlenstände (werden später gepflegt)
+  - id: "F-0001"
+    statement: "Platzhalter — Zahlenstände hier pflegen."
+    source_fn: ""
