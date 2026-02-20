@@ -1,0 +1,67 @@
+chapters:
+  - id: C01
+    title: "Einstieg: Die Tuer nach 2030 (warum The German Way jetzt entschieden wird)"
+    qa:
+      - q: "Welche konkrete Eroeffnungsszene in 2030 soll das Buch starten (und was ist der eine Satz, der die Dringlichkeit sofort klar macht)?"
+        a: |
+          Szene 1: Stark automatisierte deutsche Fabrik 2030. Produktionsplanung/-ueberwachung und Inline/Realtime-Qualitaetspruefung erkennen Abweichungen und treffen autonom Entscheidungen (Prozessparameter anpassen oder Produktion stoppen) inkl. Alarmierung einer neuen Rolle (Arbeitstitel: ProdOps Engineer) als menschliche Aufsicht/Eskalation.
+
+          Szene 2: "Nicht-mehr-Servicewueste Deutschland". Individuelle Kundenbetreuung ohne Warteschleifen; KI unterstuetzt nahtlos, "Kollegen fragen" ist obsolet. Gilt fuer Unternehmen und Verwaltung. DSGVO-konforme, zusammengefuehrte Datentoepfe/Dataspaces sind Standard; Standardisierung ist pragmatisch, Daten koennen "miteinander sprechen" (z.B. via MCP oder Vereinheitlichung). Leitmotiv: Der Weg ist das Ziel, nicht die Norm.
+        open: "Neuer Begriff fuer Produktionsaufsicht/ProdOps-Rolle finalisieren; ein praegnantes Dringlichkeits-Leitmotiv (1 Satz) fuer den Einstieg noch definieren."
+  - id: C02
+    title: "Das Spielfeld: Was Digitalisierung gewinnen fuer Industrie wirklich bedeutet (Wertschoepfung statt Buzzwords)"
+    qa:
+      - q: "Nenne 3-5 konkrete, messbare Indikatoren, an denen ein deutsches Industrieunternehmen 2030 erkennen wuerde, dass es Digitalisierung gewinnt (und 2 Anti-Indikatoren)."
+        a: |
+          Indikatoren (messbar gedacht):
+          - Aufgaben-Automatisierungsgrad, speziell bei digitalen Taetigkeiten (z.B. Systempflege, Datei/Dokument-Vergleiche, Online-Recherchen).
+          - Kurzfristige Verfuegbarkeit von Daten sowie die Geschwindigkeit, mit der daraus Erkenntnisse abgeleitet werden.
+
+          Anti-Indikatoren:
+          - Festhalten an Digitalisierungs-/Industrie-4.0-Pilotprojekten (auch mit namhaften Partnern wie Fraunhofer), wenn es Individualprojekte bleiben und nicht in die Breite des eigenen Unternehmens skalieren.
+          - KI-Strategien ohne Umsetzung; 2030 gilt "AI everywhere". Unternehmen ohne KI-Anwendung in allen Bereichen werden im Wettbewerb und als Arbeitgeber massiv abgestraft (Rueckstaendigkeit).
+        open: "Indikatoren in klare KPIs ueberfuehren (Definition, Messpunkt, Zielwert 2030) und auf 3-5 final verdichten."
+  - id: C03
+    title: "Deutsche Tugenden als Wettbewerbsvorteil: Eine SWOT fuer deutsche Unternehmen jeglicher Groesse"
+    qa:
+      - q: "Welche 3 deutschen Tugenden sollen als Staerken (S) und welche 3 als typische Schwaechen (W) in die SWOT (Stand 2026) - jeweils mit einem 1-Satz-Beleg aus der Praxis?"
+        a: |
+          Hinweis: Fokus bewusst auf 2026; der Shift Richtung 2030 soll sich ueber das Buch entwickeln.
+
+          Staerken (S) 2026:
+          - Qualitaetsbewusstsein.
+          - Methodisch und inhaltlich starke Ausbildung (universitaer und dual/ausbildungsseitig).
+          - Wirtschaftliches Fundament: breite Unternehmenslandschaft und starke Marktposition.
+
+          Schwaechen (W) 2026:
+          - Beharrendes, teils traeges Mindset.
+          - "Verwalter des Wohlstands" statt Innovator fuer mehr Wohlstand.
+          - Breite Ideenlosigkeit beim (a) Transfer akademischer Hoechstleistung in Kommerzialisierung und (b) bei der Infusion digitaler Technologien ins eigene Geschaeftsmodell (Cloud, KI, Prozessautomatisierung, agile Software-Entwicklung, Software-Infusion in Hardware); Ausnahmen bestaetigen die Regel.
+        open: "Je Tugend einen konkreten 1-Satz-Praxisbeleg ausformulieren (Symptom/Beobachtung) und Formulierungen auf SWOT-Logik schaerfen (Tugend -> Wirkung)."
+  - id: C04
+    title: "Made in Germany unter Druck: Wenn das Qualitaetsversprechen bruechig wird - und wie Vertrauen neu verdient wird"
+    qa: []
+  - id: C05
+    title: "Mittelstand als Betriebssystem: Hidden Champions, Exportmaschine, Kundennaehe, Anwendungstiefe"
+    qa: []
+  - id: C06
+    title: "Bildung, Wissen und Faehigkeiten: Staerken, Luecken und was 2030 wirklich zaehlt"
+    qa: []
+  - id: C07
+    title: "Unsere Bremskloetze: 120%-Denke, Null-Fehler-Kultur, Gremien, Regulierung und der Reflex Studie dann Norm"
+    qa: []
+  - id: C08
+    title: "Forschung trifft Markt: Anreizsysteme neu designen (Transfer, Ausgruendung, Wirkung statt Papier)"
+    qa: []
+  - id: C09
+    title: "Unsere Nicht-Lehrstuecke: Industrie 4.0 und MP3 - wenn wir Standards/Initiativen haben, aber andere skalieren und monetarisieren"
+    qa: []
+  - id: C10
+    title: "Der German Way: Prinzipien fuer Tempo mit Substanz (Verantwortung, Modularitaet, Plattformdenken)"
+    qa: []
+  - id: C11
+    title: "Das Sync-Framework: Hardware-Zyklen (Jahre) mit Software/KI-Zyklen (Wochen) in Einklang bringen (Architektur, Organisation, Betrieb)"
+    qa: []
+  - id: C12
+    title: "KI als Enabler: Von Assistenz zu Autonomie in Engineering, Produktion und Service (und was Fuehrung dafuer tun muss)"
+    qa: []
