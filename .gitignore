@@ -6,3 +6,6 @@
 # local runs
 ops/runs/
 *.bak
+
+# binary drafts (keep repo text-first)
+input/ideas/*.docx

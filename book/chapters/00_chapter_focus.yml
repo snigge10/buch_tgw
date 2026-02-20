@@ -40,28 +40,121 @@ chapters:
         open: "Je Tugend einen konkreten 1-Satz-Praxisbeleg ausformulieren (Symptom/Beobachtung) und Formulierungen auf SWOT-Logik schaerfen (Tugend -> Wirkung)."
   - id: C04
     title: "Made in Germany unter Druck: Wenn das Qualitaetsversprechen bruechig wird - und wie Vertrauen neu verdient wird"
-    qa: []
+    qa:
+      - q: "C04 Fokusfragen: Was ist der Kern von Vertrauen, wo bricht es 2026, was sind Ursachen, was soll Leser anders tun, und welche neue Made-in-Germany-Definition?"
+        a: |
+          (1) Kern: Vertrauen soll ueber "Zukunftsfaehigkeit" neu hergestellt werden; sichtbar in Produktqualitaet, Innovation und Service. Datensicherheit und Datenhoheit sind Governance-Elemente.
+
+          (2) Bruch 2026: Besonders bei Produktqualitaet als ehemaligem Kernversprechen deutscher Produkte. Service war historisch keine Staerke und nimmt ebenfalls ab.
+
+          (3) Hauptursachen (Meinung; per Studien noch zu verifizieren): Kosten-/Rezessionsdruck sowie Managementanreize, die Verwalter/Beharrer belohnen und Innovatoren abstrafen.
+
+          (4) Leserwirkung: Mutigere Entscheidungen, weil Innovation belohnt wird; Veraenderung soll als machbar, nicht schmerzhaft, sondern als Quelle von Spass und Erfolg erlebt werden. Impulse fuer Innovation setzen.
+
+          (5) Made in Germany (neudefiniert): "Based on heritage, infused by today and tomorrow - crafting the next generation of product and services".
+        open: "Neudefinition ggf. als deutsche (oder zweisprachige) Leitformel ausformulieren; Beispiele/Indikatoren fuer 'Zukunftsfaehigkeit' konkretisieren; Ursachen mit Quellen/Studien unterlegen."
   - id: C05
     title: "Mittelstand als Betriebssystem: Hidden Champions, Exportmaschine, Kundennaehe, Anwendungstiefe"
-    qa: []
+    qa:
+      - q: "Welche 2-3 konkreten Mechanismen machen den Mittelstand zum Betriebssystem - und welcher davon ist 2026 am meisten gefaehrdet?"
+        a: |
+          Mechanismen: Anwendungstiefe, Nischenfokus, Integrationskompetenz.
+
+          Am meisten gefaehrdet (2026): Nischenfokus, da insbesondere chinesische Anbieter zunehmend jede erdenkliche Nische besetzen oder deutsche Unternehmen kaufen.
+        open: "Ein konkretes Beispiel je Mechanismus (Industrie/Produkt) ergaenzen; die Bedrohung (China) mit 1-2 Datenpunkten/Quellen spaeter untermauern."
   - id: C06
     title: "Bildung, Wissen und Faehigkeiten: Staerken, Luecken und was 2030 wirklich zaehlt"
-    qa: []
+    qa:
+      - q: "Welche 3 Faehigkeiten muessen 2030 in jedem deutschen Industrieunternehmen Standard sein (rollenunabhaengig), und welche 2 werden 2026 am systematischsten unterschaetzt?"
+        a: |
+          Standardfaehigkeiten 2030:
+          - Permanentes Ueberpruefen und Anpassen des eigenen Status quo vor dem Hintergrund neuer Technologien.
+          - Regelmaessige Produkt- und Service-Innovationen.
+          - Globales Denken mit lokalem Handeln.
+
+          Systematisch unterschaetzt 2026:
+          - Eigene Bedeutung und Rolle in der Welt.
+          - Eigener Vorsprung in verschiedensten Kompetenzbereichen; dieser kann durch die schiere Menge an Talenten/Arbeitskraeften (z.B. China/Indien) rasant aufgeholt werden ("Gesetz der grossen Zahlen").
+        open: "Die 2030-Faehigkeiten in beobachtbare Routinen/Artefakte uebersetzen (was tut man konkret anders?); die zwei unterschaetzten Faehigkeiten als Fuehrungs-Narrativ/Entscheidungsheuristik schaerfen."
   - id: C07
     title: "Unsere Bremskloetze: 120%-Denke, Null-Fehler-Kultur, Gremien, Regulierung und der Reflex Studie dann Norm"
-    qa: []
+    qa:
+      - q: "Welche 2 Bremskloetze verursachen den groessten Zeitverlust, und wie sieht das im Alltag konkret aus (typischer Ablauf vom Ausloeser bis zur Verzoegerung)?"
+        a: |
+          Regulierung soll bewusst nicht als primaere Ursache genutzt werden ("faule Ausrede"), aber als Kontext erwaehnt.
+
+          Bremsklotz 1: Null-Fehler-Denke.
+          - Wirkung: Vermeidet echte agile Ansaetze; es entstehen weiterhin versteckte Wasserfall-Modelle, auch wenn sich Organisationen "agil" nennen.
+
+          Bremsklotz 2: Lang laufende Kooperationen mit Forschungseinrichtungen (haeufig oeffentlich finanziert) und Arbeitskreise.
+          - Wirkung: Funktionieren langsam, liefern selten schnelle Innovation "am Fliessband"; dienen oft als Feigenblatt/Legitimation. Leitmotiv: "Wenn du nicht mehr weiter weisst, gruende einen Arbeitskreis."
+        open: "Je Bremsklotz einen typischen Ablauf als Mini-Story konkretisieren (Trigger -> Meetings/Artefakte -> Entscheidungspunkt -> Verzoegerung) und 1-2 Gegenmuster (wie es schneller geht) definieren."
   - id: C08
     title: "Forschung trifft Markt: Anreizsysteme neu designen (Transfer, Ausgruendung, Wirkung statt Papier)"
-    qa: []
+    qa:
+      - q: "Welche 3 Aenderungen an den Anreizsystemen (Unternehmen und Forschung) haetten den groessten Transfer-Effekt (Form: Heute belohnen wir X, stattdessen muessen wir Y belohnen)?"
+        a: |
+          Soll bewusst spaeter ausgearbeitet werden, entlang der Perspektive der Mechanismus-Design-Theorie.
+          Leitidee: Anreizsysteme so gestalten, dass Unternehmen und Forschungseinrichtungen sich aus sich heraus der technologischen Disruption verschreiben; Beharren und Verwalten darf nicht belohnt werden.
+        open: |
+          Spaeter konkretisieren: 3-5 Incentive-Mechanismen je Sphaere (Unternehmen/Forschung), inkl. Metriken, Karrierepfade, Budgetlogiken, Risikoteilung und Transfer-Definition ("Wirkung").
   - id: C09
     title: "Unsere Nicht-Lehrstuecke: Industrie 4.0 und MP3 - wenn wir Standards/Initiativen haben, aber andere skalieren und monetarisieren"
-    qa: []
+    qa:
+      - q: "Fuer Industrie 4.0 und MP3: Was ist jeweils der zentrale Failure-Mechanismus (1 Satz) und welche eine Management-Lehre folgt daraus?"
+        a: |
+          Industrie 4.0:
+          - Failure-Mechanismus: Hohe Integrationskomplexitaet erfordert viele Partner, aber Piloten sind zu klein, um Partner wirtschaftlich zu motivieren; fuer grosse Rollouts fehlt der Mut, weil Piloten den Mehrwert nicht zeigen.
+          - Zentrale Failure-Elemente: Over-Engineering (z.B. Asset Administration Shell) und "am Markt vorbei" designt.
+
+          MP3:
+          - Failure-Mechanismus: Transfer von Forschungsergebnissen zur Kommerzialisierung im eigenen Land wurde nicht geschafft.
+          - Vermutung zur Ursache: Potential nicht gesehen oder fehlender Mut/Finanzierung.
+        open: "Pro Fall eine praezise Management-Lehre in 1 Satz formulieren; MP3 mit konkreten Monetarisierungsvergleichen spaeter belegen (z.B. iTunes-Umsaetze vs. Fraunhofer-Lizenzerloese)."
   - id: C10
     title: "Der German Way: Prinzipien fuer Tempo mit Substanz (Verantwortung, Modularitaet, Plattformdenken)"
-    qa: []
+    qa:
+      - q: "Welche 3 Prinzipien definieren den German Way (als Spannungsfeld X statt Y) und welches Management-Verhalten zeigt, dass es gelebt wird?"
+        a: |
+          Prinzip 1: Wirkung und Skalierung statt Pilot-Prestige.
+          - X statt Y: Skalierbares Produkt/Prozess im Kerngeschaeft statt Foerderprojekt, Showcase oder "wir machen was mit Fraunhofer".
+          - Verhalten: Kein Pilot ohne Rollout-Commitment (Owner, Budget, Ziel-KPI, Termin); wenn Mehrwert nicht messbar ist, wird in Wochen beendet und neu geschnitten.
+
+          Prinzip 2: Iterieren mit Guardrails statt Null-Fehler-Illusion.
+          - X statt Y: Schnelle Lernzyklen mit Sicherheits-/Qualitaetsplanken statt "agil genannt, Wasserfall gelebt".
+          - Verhalten: Releases/Prozessanpassungen in kurzen Takten; Abweichungen werden realtime erkannt und fuehren autonom zu Parameteranpassung oder Stop (mit Eskalation an Ops/ProdOps-Rolle) statt monatelanger Freigaben.
+
+          Prinzip 3: Zukunftsfaehigkeit als neues Qualitaetsversprechen (Datenhoheit inklusive).
+          - X statt Y: Upgrade-/Anpassungsfaehig statt "perfekt bei Auslieferung"; Vertrauen ueber Innovation + Service, abgesichert durch Datensicherheit/Datenhoheit.
+          - Verhalten: Management priorisiert Servicefaehigkeit (z.B. Loesungszeit, First-Contact-Resolution) und baut DSGVO-konforme Dataspaces/Standards, damit Daten miteinander sprechen (pragmatische Standardisierung statt Norm-Perfektionismus).
+        open: "Prinzipsaetze spaeter auf knappe, merkfaehige Formeln verdichten; Ops/ProdOps-Rolle begrifflich finalisieren."
   - id: C11
     title: "Das Sync-Framework: Hardware-Zyklen (Jahre) mit Software/KI-Zyklen (Wochen) in Einklang bringen (Architektur, Organisation, Betrieb)"
-    qa: []
+    qa:
+      - q: "Welche 3-4 Bausteine muss das Sync-Framework zwingend enthalten, und welches Beispielprodukt dient als roter Faden?"
+        a: |
+          Zwingende Bausteine:
+          - Architektur/Modularitaet.
+          - Daten/Telemetrie.
+          - Organisationsmodell/Ownership.
+
+          Fallbeispiel: Spaeter festlegen; ggf. besser zwei durchgehende Beispiele (eins aus Produktion/Industrie, eins aus Dienstleistung, z.B. Versicherungen).
+        open: "Beispiele spaeter auswaehlen und Kriterien definieren (nahe am Leser, genug Komplexitaet, klares Update-Zyklus-Problem, gut erklaerbar)."
   - id: C12
     title: "KI als Enabler: Von Assistenz zu Autonomie in Engineering, Produktion und Service (und was Fuehrung dafuer tun muss)"
-    qa: []
+    qa:
+      - q: "Welche 3 Autonomie-Spruenge bis 2030 (Engineering, Produktion, Service/Verwaltung) und welche rote Linie (1 Governance-Prinzip)?"
+        a: |
+          Engineering:
+          - Autonomie-Sprung: Der Weg zur Abnahme/Validierung ist nahezu bis vollstaendig autonom; die finale Abnahme bleibt auf 120% Genauigkeit und Praezision.
+
+          Produktion:
+          - Autonomie-Sprung: Dark Factories sind Standard.
+          - Compliance: Regulatorische Einhaltung (z.B. GxP Pharma, ISO 9100 Luftfahrt) wird ueber Human-in-the-Loop Prozesse sichergestellt.
+
+          Service/Verwaltung:
+          - Autonomie-Sprung: 24/7 Verfuegbarkeit ist Standard; nur Eskalationen und Sonderfaelle brauchen menschliche Interaktion.
+
+          Governance-Prinzip:
+          - "Responsible AI by Design"; Konzepte sind bekannt, muessen skalierbar implementiert und kontinuierlich ueberwacht werden.
+        open: "Responsible-AI-By-Design in 3-5 konkrete Controls uebersetzen (z.B. Auditability, Monitoring, Incident Response, Data Governance) und je Bereich ein greifbares Beispiel formulieren."
