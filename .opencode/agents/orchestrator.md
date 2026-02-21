@@ -1,7 +1,7 @@
 ---
 description: Steuert gesamte Pipeline
 mode: primary
-model: openai/gpt-5
+model: openai/gpt-5.2
 temperature: 0.2
 tools:
   write: true
@@ -28,4 +28,3 @@ Du MUSST die folgenden Subagents als Pflichtschritte einhängen:
    - Abweichungen => Patch-Vorschlag + Update-Empfehlung für Canon
 
 Wenn einer dieser Schritte fehlschlägt, ist der Status **BLOCKED** und du darfst nicht fortfahren.
-
