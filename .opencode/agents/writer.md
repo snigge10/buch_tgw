@@ -1,7 +1,7 @@
 ---
 description: Kapitel schreiben
 mode: primary
-model: openai/gpt-5
+model: openai/gpt-5.2
 temperature: 0.6
 tools:
   write: true

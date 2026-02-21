@@ -42,39 +42,39 @@ models:
   # Richtwerte. Tool/Runnner kann daraus Vendor/Model auswählen.
   orchestrator:
     vendor: "openai"
-    model_hint: "gpt-5"
+    model_hint: "gpt-5.2"
     temperature: 0.2
   interviewer:
-    vendor: "anthropic"
-    model_hint: "claude"
+    vendor: "openai"
+    model_hint: "gpt-5.2"
     temperature: 0.3
   research:
-    vendor: "anthropic"
-    model_hint: "claude"
+    vendor: "openai"
+    model_hint: "gpt-5.2"
     temperature: 0.2
   outline:
     vendor: "openai"
-    model_hint: "gpt-5"
+    model_hint: "gpt-5.2"
     temperature: 0.4
   writing:
     vendor: "openai"
-    model_hint: "gpt-5"
+    model_hint: "gpt-5.2"
     temperature: 0.6
   editor:
-    vendor: "anthropic"
-    model_hint: "claude"
+    vendor: "openai"
+    model_hint: "gpt-5.2"
     temperature: 0.3
   factcheck:
     vendor: "openai"
-    model_hint: "gpt-5"
+    model_hint: "gpt-5.2"
     temperature: 0.2
   continuity:
-    vendor: "anthropic"
-    model_hint: "claude"
+    vendor: "openai"
+    model_hint: "gpt-5.2"
     temperature: 0.2
   gitops:
     vendor: "openai"
-    model_hint: "gpt-5"
+    model_hint: "gpt-5.2"
     temperature: 0.1
 
 git:
