@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="utf-8" />
+
+    <title>Page not found</title>
+
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <script>
+      var cl = document.querySelector("html").classList;
+      cl.remove("no-js");
+      cl.add("has-js");
+    </script>
+    <link rel="stylesheet" href="https://cdn1.fpfis.tech.ec.europa.eu/ecl/v3.7.1/ec/styles/ecl-ec.css" crossorigin="anonymous" media="screen"/>
+    <link rel="stylesheet" href="https://cdn1.fpfis.tech.ec.europa.eu/ecl/v3.7.1/ec/styles/ecl-ec-print.css" crossorigin="anonymous" media="print"/>
+    <script defer src="https://europa.eu/webtools/load.js?globan=1110"></script>
+  </head>
+  <body class="ecl-typography">
+    <header class="ecl-site-header" data-ecl-auto-init="SiteHeader"> 
+      <div class="ecl-site-header__header">
+        <div class="ecl-site-header__container ecl-container">
+          <div class="ecl-site-header__top" data-ecl-site-header-top>
+            <a href="https://commission.europa.eu/index_en" class="ecl-link ecl-link--standalone ecl-site-header__logo-link" aria-label="European&#x20;Commission">
+              <img id="ec-logo" alt="European Commission logo" title="European Commission" class="ecl-site-header__logo-image ecl-site-header__logo-image-desktop" src="https://commission.europa.eu/themes/contrib/oe_theme/dist/ec/images/logo/positive/logo-ec--en.svg"/>
+            </a>
+            <div class="ecl-site-header__action"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="ecl-container">
+        <main class="ecl-u-pb-xl" id="main-content">
+            <div class="ecl-container">
+                <div class="ecl-row">
+                    <div class="ecl-col-s-12">
+                        <div id="block-ewcms-theme-main-page-content" class="ecl-u-mb-l">
+                            <div>
+                                <h2 id="nf-heading" class="ecl-u-type-heading-2">Page not found</h2>
+                                <div class="ecl">
+                                    <p id="nf-text" class="ecl-u-type-paragraph">The page you requested could not be found. This might have happened because</p>
+                                    <ul class="ecl-u-type-paragraph">
+                                        <li id="nf-r1">the page has moved</li>
+                                        <li id="nf-r2">the page no longer exists</li>
+                                    </ul>
+                                </div>
+                                <p class="ecl-u-type-paragraph"><a id="nf-action" class="ecl-link ecl-link--cta" href="https://commission.europa.eu/index_en">Return to the homepage</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="ecl-site-footer">
+      <div class="ecl-container ecl-site-footer__container">
+        <div class="ecl-site-footer__row">
+          <div class="ecl-site-footer__column">
+            <div class="ecl-site-footer__section">
+                <a href="https://commission.europa.eu/index_en" class="ecl-link ecl-link--standalone ecl-site-footer__logo-link" aria-label="European&#x20;Commission">
+                  <img alt="European Commission logo" title="European Commission" class="ecl-site-footer__logo-image-desktop" src="https://commission.europa.eu/themes/contrib/oe_theme/dist/ec/images/logo/negative/logo-ec--en.svg"/>
+                </a>
+            </div>
+          </div>
+          <div class="ecl-site-footer__column">
+            <div class="ecl-site-footer__section ecl-footer-standardised__section--split-list">
+              <ul class="ecl-site-footer__list">
+                <li class="ecl-site-footer__list-item">
+                  <a id="contact-eu" href="https://commission.europa.eu/about-european-commission/contact_en" class="ecl-link ecl-link--standalone ecl-site-footer__link" aria-label="Link&#x20;to&#x20;Contact&#x20;the&#x20;European&#x20;Commission">Contact the European Commission</a>
+                </li>
+                <li class="ecl-site-footer__list-item">
+                  <a href="https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission" class="ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after ecl-site-footer__link" aria-label="Link&#x20;to&#x20;Follow&#x20;the&#x20;European&#x20;Commission&#x20;on&#x20;social&#x20;media">
+                    <span id="follow-ec" class="ecl-link__label">Follow the European Commission on social media</span>
+                    <svg class="ecl-icon ecl-icon--2xs ecl-link__icon" focusable="false" aria-hidden="true">
+                      <use xlink:href="static/media/icons.6770a2ae.svg#external"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="ecl-site-footer__list-item">
+                  <a id="resources-partners" href="https://commission.europa.eu/resources-partners_en" class="ecl-link ecl-link--standalone ecl-site-footer__link">Resources for partners</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="ecl-site-footer__column">
+            <div class="ecl-site-footer__section ecl-footer-standardised__section--split-list">
+              <ul class="ecl-site-footer__list">
+                <li class="ecl-site-footer__list-item">
+                  <a id="languages-sites" href="https://commission.europa.eu/language-policy_en" class="ecl-link ecl-link--standalone ecl-site-footer__link" aria-label="Link&#x20;to&#x20;Languages&#x20;on&#x20;our&#x20;websites">Languages on our websites</a>
+                </li>
+                <li class="ecl-site-footer__list-item">
+                  <a id="cookies" href="https://commission.europa.eu/cookies_en" class="ecl-link ecl-link--standalone ecl-site-footer__link" aria-label="Link&#x20;to&#x20;Cookies">Cookies</a>
+                </li>
+                <li class="ecl-site-footer__list-item">
+                  <a id="privacy-policy" href="https://commission.europa.eu/privacy-policy_en" class="ecl-link ecl-link--standalone ecl-site-footer__link" aria-label="Link&#x20;to&#x20;Privacy&#x20;policy">Privacy policy</a>
+                </li>
+                <li class="ecl-site-footer__list-item">
+                  <a id="legal-notice" href="https://commission.europa.eu/legal-notice_en" class="ecl-link ecl-link--standalone ecl-site-footer__link" aria-label="Link&#x20;to&#x20;Legal&#x20;notice">Legal notice</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="./redirect.js"></script>
+
+    </body>
+</html>
